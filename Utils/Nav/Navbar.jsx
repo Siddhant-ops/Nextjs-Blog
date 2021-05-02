@@ -7,13 +7,13 @@ const Navbar = () => {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.navLogoBox}>
-        <Link href="/">
-          <a>
+      <Link href="/">
+        <a>
+          <div className={styles.navLogoBox}>
             <h4>TB</h4>
-          </a>
-        </Link>
-      </div>
+          </div>
+        </a>
+      </Link>
       <ul>
         <li>
           <Link href="/Explore">
